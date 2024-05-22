@@ -47,7 +47,7 @@
                             </div>
                             <input type="hidden" class="form-control" id="id" name="id" value="{{ $employee->id }}">
                             <button type="submit" class="btn btn-primary">{{ __('Edit') }}</button>
-                            <a class="btn btn-secondary float-end" href="/category" role="button">{{ __('Back') }}</a>
+                            <a class="btn btn-secondary float-end" href="/employee" role="button">{{ __('Back') }}</a>
                         </form>
                     </div>
                 </div>
