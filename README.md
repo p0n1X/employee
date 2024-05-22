@@ -13,17 +13,30 @@ Below is a list of technologies we use at this project
 ### 1. Set environment variables
 First you need to create ```.env``` file in the main directory with the data from ```env-example``` file.
 
-### 2. Install all addons from ```package.json```
+### 2. Create Database
+You need to create ```database.sqlite``` file in the /database directory . Move ```database.sqlite.example``` file from root directory to ```/database``` and removing extension ```.example``` .
+
+### 3. Install all addons from ```package.json```
 ```
 npm install
 ```
 
-### 3.Generated mix files
+### 4.Generated mix files
 ```
 npm run dev
 ```
 
-### 3.Run Server
+### 5. Update Composer Packages
+```
+composer update
+```
+
+### 6. Generate Key
+```
+php artisan key:generate
+```
+
+### 7. Run Server
 ```
 php artisan serve
 ```
